@@ -1,0 +1,23 @@
+{
+  "name": "todolist_api",
+  "version": "1.0.0",
+  "description": "ToDoList API with JWT Authentication.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "start-dev": "nodemon index"
+  },
+  "author": "Soumi",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
